@@ -11,5 +11,5 @@ Ramom José Correia Santos (rjcs)
 
 [Apresentação RUP](https://docs.google.com/presentation/d/1dr-mipFrhRk8EpTmA_ShE4yYceVYx4OLcLp3Szi7HoA/edit#slide=id.g1ddb8eb5dbd_2_28)
 
-[Implementação](https://github.com/marcelovalois/cingest)
+[Implementação](https://github.com/gbc8/CinGest/tree/master)
 
