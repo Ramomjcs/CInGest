@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+     <table border="1">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>titulo</th>
+                <th>responsavel</th>
+                <th>supervisor</th>
+                <th>cliente</th>
+                <th>status</th>
+                <th>inicio</th>
+                <th>fim</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="osDTO: ${os}">
+                <td th:text="${osDTO.id}">id:></td>
+                <td th:text="${osDTO.titulo}">titulo:></td>
+                <td th:text="${osDTO.responsavel}">responsavel:></td>
+                <td th:text="${osDTO.supervisor}">supervisor:></td>
+                <td th:text="${osDTO.cliente}">cliente:></td>
+                <td th:text="${osDTO.status}">status:></td>
+                <td th:text="${osDTO.inicio}">inicio:></td>
+                <td th:text="${osDTO.fim}">fim:></td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <form action="/os" method="post" style="display:flex; flex-direction:column">
+            <label for="titulo">Titulo</label>
+            <input name="titulo" />
+            <label for="responsavel">Responsavel</label>
+            <input name="responsavel" />
+            <label for="supervisor">Supervisor</label>
+            <input name="supervisor" />
+            <label for="cliente">Cliente</label>
+            <input name="cliente" />
+            <label for="inicio">Inicio</label>
+            <input name="inicio" />
+            <label for="fim">Fim</label>
+            <input name="fim" />
+            <br>
+            <button type="submit">Criar</button>
+    </form>
+</body>
+</html>
