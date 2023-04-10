@@ -9,7 +9,7 @@ Ramom José Correia Santos (rjcs)
 
 [Escopo do Projeto](https://docs.google.com/document/d/1bsVx5iC1YnMxSozPUi6HSZLU-czF5skBuvQlRUIudz0/edit?usp=sharing)
 
-[Apresentação RUP](https://docs.google.com/presentation/d/1dr-mipFrhRk8EpTmA_ShE4yYceVYx4OLcLp3Szi7HoA/edit#slide=id.g1ddb8eb5dbd_2_28)
+[Apresentação SOA](https://docs.google.com/presentation/d/1rMjJJK3PKk_k-O_DAaMKI1YXGXrANksavQCJklF6atY/edit?usp=sharing)
 
 [Implementação](https://github.com/gbc8/CinGest/tree/master)
 
